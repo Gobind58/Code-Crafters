@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('image.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.mentor-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.mentor-card {
+    background-color: #D6C0B3; /* Light neutral background */
+    border: 1px solid black; /* Soft gray border */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Softer shadow for depth */
+    transition: transform 0.3s, background-color 0.3s;
+    color: black;
+}
+
+.mentor-card:hover {
+    transform: translateY(-5px);
+    background-color: #e7dbd4; /* Light blue on hover */
+}
+
+.mentor-info {
+    margin-bottom: 10px;
+}
+
+.mentor-info span {
+    font-weight: bold;
+    color: #493628; /* Blue for key information */
+}
+
+.mentor-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #AB886D;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.mentor-button:hover {
+    background-color: #3c2c20;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    transition: background-color 0.3s ease, padding 0.3s ease;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}

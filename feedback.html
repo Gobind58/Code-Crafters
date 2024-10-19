@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="feed.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Sant Longowal Institute of Engineering and Technology</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mentors.html">Mentors</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <main>
+        <!-- Feedback Section -->
+        <section id="feedback">
+            <h2>We Value Your Feedback</h2>
+            <form id="feedback-form">
+                <label for="user-name">Your Name:</label>
+                <input type="text" id="user-name" name="user-name" required>
+
+                <label for="user-feedback">Your Feedback:</label>
+                <textarea id="user-feedback" name="user-feedback" rows="4" required></textarea>
+
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+    </footer>
+    <script src="feed.js"></script>
+</body>
+</html>
